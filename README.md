@@ -1,6 +1,6 @@
 # Nexpose_Automation
 
-Please note that the following scripts are written for the nexpose 2.0 API and leverage the Nexpose Gem owned by Rapid7: https://github.com/rapid7/nexpose-client
+Please note that the following scripts are written for the nexpose 2.0 API and leverage the Nexpose Gem owned by Rapid7: https://github.com/rapid7/nexpose-client. The idea for settings.yml and various AssetCleanup scripts came from me seeing them in the wild, so I took that idea and am running with it. If you are the original creator please let me know so I can give you credit because you are AWESOME!!!
 
 
 These small scripts are designed to aide in the administraton of the Nexpose Vulnerability Scanner:
