@@ -4,3 +4,4 @@
   :user: 'ServiceAccount'
   :pass: 'Password'
   :port: '3780'
+  :stalegroup: ''
