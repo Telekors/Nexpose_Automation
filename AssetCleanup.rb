@@ -18,6 +18,7 @@ nsc = Nexpose::Connection.new(NexposeIP, NexposeUN, NexposePW)
 nsc.login
 
 #puts nsc.system_information
+groupid = $settings[:nexpose][:stalegroup]
 ag = AssetGroup.load(nsc, 90)  ##Change 90 to match your asset group id (this can be found by browsing here https://YOURNEXPOSE:3780/asset/group/listing.jsp and hovering over the group you want to reference )
 
 
