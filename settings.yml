@@ -1,0 +1,6 @@
+---
+:nexpose:
+  :host: 'IP/HOST'
+  :user: 'ServiceAccount'
+  :pass: 'Password'
+  :port: '3780'
