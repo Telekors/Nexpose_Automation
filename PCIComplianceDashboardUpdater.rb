@@ -54,12 +54,12 @@ nsc.logout
 
 #create Dynamic File Name(must be ran on different days to be dynamic otherwise will overwrite file)
 
-input_file = 'L:\SECURITY\PCI_Dashboard\DashboardFiles\DownloadedReports\report.csv'
-output_file = 'L:\SECURITY\PCI_Dashboard\DashboardFiles\Dashboard\PCIDashboard-' + date + '.xlsx'
+input_file = ''
+output_file = '' + date + '.xlsx'
 
 		#parses excel doc and selects worksheet to be overwritten
 	  puts 'parsing dashboard...'
-      workbook = RubyXL::Parser.parse("PCIDashboardV4.0.8.xlsx")
+      workbook = RubyXL::Parser.parse("PCIDashboard.xlsx")
       worksheet = workbook[1]
 
       puts 'conversion in process...'
